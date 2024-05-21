@@ -121,10 +121,10 @@ export const TicTacToe = () => {
         </div>
 
       </div>
-      <div className="game-info mt-3 col-6">
+      <div className="game-info mt-3">
         <div className="alert alert-info">{status}</div>
-        <button className="btn btn-danger mt-2" onClick={handleReset}>Reset</button>
 
+        <button className="btn btn-danger mt-2" onClick={handleReset}>Reset</button>
         <button className="btn btn-secondary mt-2 mx-2" onClick={toggleMode}>
           {isClassicMode ? 'Limited Moves' : 'Classic'} Mode
         </button>
